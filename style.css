@@ -8,13 +8,29 @@
 section,header{
     text-align: center;
 }
+footer{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    background-color:steelblue;
+    color:whitesmoke;
 
-footer ul, header nav ul{
+}
+ul{
+    list-style: none;
+    margin: 5px;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+
+header nav ul{
     display: flex;
     flex-direction: row;
     list-style: none;
 }
-footer, header nav{
+header nav{
     background-color:steelblue;
     display: flex;
     color:whitesmoke;
