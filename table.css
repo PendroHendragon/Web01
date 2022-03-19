@@ -5,13 +5,31 @@
 }
 
 
-.tabela,tr{
-    border: 1px solid black;
+.tabela{
+    border: 3px dashed green;
     border-collapse: collapse;
     margin: auto;
     width: 600px;
+    font-size: 14px;
+}
+thead{
+    font-weight: bold;
+    background-color: brown;
+    color:whitesmoke
+}
+tr{
+    border: 3px dashed green;
+}
+tbody{
+    font-size: 12px;
 }
 
 header{
     text-align: center;
+}
+
+tbody tr:hover{
+    cursor: pointer;
+    background-color: blueviolet;
+    color: whitesmoke;
 }
