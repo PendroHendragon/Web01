@@ -3,9 +3,17 @@
     padding: 0;
     box-sizing: border-box;
 }
+main{
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+    
+}
+article{
+    width: 300px;
+}
 
-
-section,header{
+article,header{
     text-align: center;
 }
 footer{
