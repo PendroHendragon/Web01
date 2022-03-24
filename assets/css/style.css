@@ -17,7 +17,10 @@ article{
     width: 300px;
     font-family: 'Roboto';
 }
-
+img{
+    width: 200px;
+    height: auto;
+}
 article,header{
     text-align: center;
 }
